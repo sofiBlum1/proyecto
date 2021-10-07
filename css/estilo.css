@@ -1,0 +1,421 @@
+/*menu principal*/
+
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+#imagenLogo{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 130%;
+    
+}
+nav a:hover{
+    transition: 1s;
+    font-size: 3rem;
+}
+
+#slogan{
+    color: rgb(29, 29, 29);
+    font-family: qanelasBold;
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-bottom: 38%;
+}
+
+h1{
+    font-size: 50px;
+
+    
+}
+/*estilos de toda la pagina*/
+@font-face {
+    font-family: qanelasMedium;
+    src: url(../fonts/Qanelas-Medium.ttf);
+}
+
+@font-face {
+    font-family: qanelasThin;
+    src: url(../fonts/Qanelas-Thin.ttf);
+}
+@font-face {
+    font-family: qanelasBold;
+    src: url(../fonts/Qanelas-Bold.ttf);
+}
+
+.index{
+    background-image: url(../images/golf/2.jpeg);
+    height: 710px;
+    width: auto;
+}
+
+a{
+    font-family: qanelasMedium;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(29, 29, 29);
+    text-transform: capitalize;
+    
+}
+
+.subtitulo{
+    color: rgb(29, 29, 29);
+    font-size: 30px;
+    font-family: qanelasMedium;
+}
+
+html{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+h3{
+    font-family: qanelasThin;
+    font-size: 80%; 
+}
+
+h4{
+    font-family: qanelasThin;
+    font-size: 10px;
+}
+h5 a{
+    text-decoration: none;
+    font-family: qanelasMedium;
+    font-size: 15px;
+    color: rgb(29, 29, 29);
+}
+h5:hover{
+    transition: 1s;
+    font-size: 2rem;
+}
+
+
+
+/* menúes de la home*/
+
+#menuNosotros{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#menuNosotrosDescripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#menuObra1{
+    display: flex;
+    flex-direction: column
+}
+#menuObra1Descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#imagenObra1{
+    height: 100%;
+    width: 100%;
+}
+#menuObra2{
+    display: flex;
+    flex-direction: column;
+}
+.menuObra2Descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#menuContacto{
+    display: flex;
+    flex-direction: column;
+}
+.menuContactoDescripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+/*nosotros*/
+.descripcionNosotros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+
+}
+
+#imagenNosotros{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+#nosotrosNosotros{
+    color: rgb(29, 29, 29);
+    font-size: 200%;
+    font-family: qanelasBold;
+}
+
+
+/*contacto*/
+
+fieldset{
+    font-family: qanelasThin;
+    font-size: 15px;
+    color: rgb(29, 29, 29);
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 60%;
+
+}
+
+.datosConsulta{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+#botonesConsulta{
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+
+/*obras*/
+#subtitulosObras{
+    margin-left: 5%; 
+    margin-top:5%;
+    font-family: qanelasMedium;
+    font-size: 110%;
+}
+
+#seccion1imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#atributosImagenesObra{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(29, 29, 29);
+    
+}
+#footerInformacion{
+    display: flex;
+    flex-direction: column;
+}
+#footerLogitos{
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#isotipoFooter{
+    height: 20%;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+
+@media only screen and (min-width: 600px) {
+    nav{
+        display: flex;
+        justify-content: space-around;
+        font-size: 200%;
+    }
+    #slogan{
+        color: rgb(29, 29, 29);
+        font-family: qanelasBold;
+        margin-left: 5%;
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+    .subtitulo{
+        color: rgb(29, 29, 29);
+        font-size: 40px;
+        font-family: qanelasMedium;
+    }
+    h4{
+        font-family: qanelasThin;
+        font-size: 15px;
+    }
+    h5 a{
+        text-decoration: none;
+        font-family: qanelasMedium;
+        font-size: 25px;
+        color: rgb(29, 29, 29);
+        margin-bottom: 10%;
+    }
+    #nosotrosNosotros{
+        color: rgb(29, 29, 29);
+        font-size: 250%;
+        font-family: qanelasBold;
+    }
+    h3{
+        font-family: qanelasThin;
+        font-size: 100%; 
+    }
+    fieldset{
+        font-family: qanelasThin;
+        font-size: 20px;
+        color: rgb(29, 29, 29);
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 1%;
+    
+    }
+}
+@media only screen and (min-width: 900px){
+    #menu{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    #imagenLogo{
+        width: 10%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    nav{
+        display: flex;
+        width: 40%;
+        justify-content: space-evenly;
+        margin-top: 7%;
+    }
+    #slogan{
+        margin-top: 5%;
+        margin-bottom: 5.6%;
+    }
+    h1{
+        font-size: 70px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+    
+    #menuNosotros{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    #imagenNosotros{
+        height: 50%;
+        width: 50%;
+        margin-bottom: 0;
+    }
+    #menuObra1{
+        display: flex;
+        flex-direction: row;
+        flex-direction: row-reverse;
+    }
+    
+    #imagenObra1{
+        height: 50%;
+        width: 50%;
+        margin-bottom: 0;
+    }
+    #menuObra2{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    #imagenObra2{
+        height: 50%;
+        width: 50%;
+        margin-bottom: 0;
+    }
+    #menuContacto{
+        display: flex;
+        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    #imagenContacto{
+        height: 50%;
+        width: 50%;
+        margin-bottom: 0;
+    }
+    #datosConsulta{
+        width: 40%;
+    }
+
+    
+        /*footer*/
+
+    
+    #footerInformacion{
+        display: flex;
+        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        
+    }
+
+    #footerLogitos{
+        height: 15%;
+        width: 15%;
+        margin-top: 5%;
+        margin-right: 2%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+
+    #isotipoFooter{
+        height: 10%;
+        width: 10%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-right: 0%;
+        
+    }
+    .index{
+        background-image: url(../images/golf/2.jpeg);
+        background-size: 100% 100%;
+    }
+}
